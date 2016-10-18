@@ -12,7 +12,6 @@ import {
   View
 } from 'react-native';
 
-
 import Main from './Commponent/Main/Main.js';
 
 export default class News extends Component {
@@ -30,9 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
   },
-
 });
 
 AppRegistry.registerComponent('News', () => News);
